@@ -1,0 +1,10 @@
+{
+  "name": "Pwans Pwa",
+  "short_name": "Pwna",
+  "start_url": "/?home=true",
+  "icons": [],
+  "theme_color": "#000000",
+  "background-color": "#FFFFFF",
+  "display": "fullscreen",
+  "orientation": "portrait"
+}
