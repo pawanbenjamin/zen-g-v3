@@ -169,11 +169,14 @@
       media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
     />
     <!-- END METADATA STUFF -->
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <h1>Welcome to Jail</h1>
     </header>
+    <button>Install</button>
     <script>
       if ("serviceWorker" in navigator) {
         navigator.serviceWorker.register("/service-worker.js");
